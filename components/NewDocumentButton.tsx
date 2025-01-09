@@ -2,8 +2,9 @@
 
 import { Button } from "./ui/button";
 import { useTransition } from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import { createNewDocument } from "../actions/actions";
+
 
 function NewDocumentButton() {
   const [isPending, startTransition] = useTransition();
