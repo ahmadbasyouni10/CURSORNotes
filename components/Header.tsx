@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="flex items-center justify-between p-5">
       {user && (
-        <h1 className="text-2xl">{user.firstName}{`'s`} Space</h1>
+        <h1 className="font-semibold text-2xl">{user.firstName}{`'s`} Space</h1>
       )}
 
       {/* Bread Crumbs */}
